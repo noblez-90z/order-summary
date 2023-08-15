@@ -1,0 +1,75 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color:   hsl(225, 100%, 94%);
+}
+.section{
+    border: none;
+    width: 350px;
+    height: fit-content;
+    max-width: 450px;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+.top img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    
+}
+h2{
+    text-align: center;
+    margin: 10px;
+}
+p{
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    color: grey;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+.plan{
+    display: flex;
+    gap: 5px;
+}
+.prize,h3{
+    line-height: 0.5rem;
+    height: 0;
+    text-align: right;
+}
+h3{
+    font-size: 16px;
+}
+.plan,.middle{
+    display: inline-block;
+}
+button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(57, 57, 207, 0.938);
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+}
+p a{
+    text-decoration: none;
+    color: grey;
+}
